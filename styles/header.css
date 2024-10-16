@@ -6,6 +6,7 @@
     background-position: center;
     display: inline-block;
     margin-left: 1em;
+    
 }
 .cabecalho {
 
@@ -26,7 +27,12 @@
     padding: 1em;
 }
 
+#menu{
+    cursor: pointer;
+}
+
 .lista-menu{
+    
     display: none;
     position: absolute;
     top: 100%;
@@ -34,9 +40,9 @@
     width: 50vw;
 }
 
-.container__botao:checked ~ .lista-menu{
+/* .container__botao:checked ~ .lista-menu{
     display: block;
-}
+} */
 .lista-menu__titulo,.lista-menu__item{
     padding: 1em;
     background-color: var(--branco);
