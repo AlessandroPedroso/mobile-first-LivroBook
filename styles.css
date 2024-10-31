@@ -1,6 +1,7 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/carrossel.css");
+@import url("styles/topicos.css");
 
 :root{
     --cor-de-fundo:#EBECEE;
@@ -21,6 +22,6 @@ body{
     background-color: var(--cor-de-fundo);
     font-family: "Poppins", sans-serif;
     /* calcula o em x o font-size */
-    font-size: 16px; 
+    font-size: 16px;
     font-weight: 400;
 }
